@@ -16,6 +16,9 @@ export async function PATCH(request, { params }) {
     arrival ,
     color ,
     type ,
+    subtitle ,
+    colorback ,
+    colorback2 ,
  
      
   } = await request.json();
@@ -38,6 +41,9 @@ export async function PATCH(request, { params }) {
         arrival ,
         color ,
         type ,
+            subtitle ,
+    colorback ,
+    colorback2,
  
          
       },

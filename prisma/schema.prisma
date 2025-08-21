@@ -11,13 +11,16 @@ model Product {
   id           String   @id @default(auto()) @map("_id") @db.ObjectId
   title        String
   description  String
-  price        String
-  discount     String
+  price        String?
+  discount     String?
   img          String[]
-  category     String
+  category     String?
   stock        String?
   color        Json?
-  type         String
+  type         String?
+  subtitle         String?
+  colorback         String?
+  colorback2         String?
   arrival      String   @default("no")
 }
 

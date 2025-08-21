@@ -33,8 +33,8 @@ const handleFilesChange = async (event) => {
 
     const isVideo = file.type.startsWith("video/");
     const uploadUrl = isVideo
-      ? "https://api.cloudinary.com/v1_1/dciku5di2/video/upload"
-      : "https://api.cloudinary.com/v1_1/dciku5di2/image/upload";
+      ? "https://api.cloudinary.com/v1_1/dx6kwjzog/video/upload"
+      : "https://api.cloudinary.com/v1_1/dx6kwjzog/image/upload";
 
     try {
       const res = await fetch(uploadUrl, {

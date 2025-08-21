@@ -39,7 +39,7 @@ export default function Sidebar() {
                 Add Product
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/category" style={{ color: "white", textDecoration: "none" }}>
                 Add Category
               </a>
@@ -53,7 +53,7 @@ export default function Sidebar() {
               <a href="/reservation" style={{ color: "white", textDecoration: "none" }}>
                 Orders
               </a>
-            </li> 
+            </li>  */}
             <li>
               <a href="/" style={{ color: "white", textDecoration: "none" }}>
                 Logout

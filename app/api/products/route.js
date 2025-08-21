@@ -16,6 +16,9 @@ export async function POST(req) {
       arrival,
       color,
       type,
+          subtitle ,
+    colorback ,
+    colorback2 ,
  
     } = body;
 
@@ -35,6 +38,9 @@ export async function POST(req) {
         arrival,
         color,
         type,
+            subtitle ,
+    colorback ,
+    colorback2 ,
  
 
       },
